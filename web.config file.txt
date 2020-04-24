@@ -1,0 +1,24 @@
+----------------------------web.config file---------------------------
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  https://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+ 
+  <system.web>
+  <customErrors mode="Off"/>
+	   <trust level="Full" /> 
+    <compilation debug="true" targetFramework="4.6.1"/>
+    <httpRuntime targetFramework="4.6.1"/>
+  </system.web>
+  <system.codedom>
+    
+  </system.codedom>
+
+  <connectionStrings>
+    <add name="dayCareWebsite" connectionString=" Data Source=188.121.44.214;Integrated Security=False;User ID=Your database ID; password=Your Database PASS; Connect Timeout=15;Encrypt=False;Packet Size=4096" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+</configuration>
