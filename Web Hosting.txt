@@ -1,0 +1,70 @@
+----------------------About Godaddy web hosting--------------------------
+
+1) for ASP.Net web hosting we need windows hosting with plesk
+2) for php word press we need linux hosting with cpanel
+2) for database we need sql server 
+3) first we need to buy domain(name) for our website
+4) then we need to buy web hosting
+5) then we need to connect domain with web hosting
+
+------------------------connect domain with web hosting-------------------
+
+1) go to my products
+2) click on manage button just beside web hosting
+3) select domain which you want to connect and host
+4)your plesk password and id will be generated
+5) save your id to your notebook for safety reasons
+6)Now click on plesk Admin to open Plesk Panel
+
+
+----------------------------How to Host a Website--------------------------
+
+1) first you need to zip your project folder
+2) click upload button just top of your plesk panel
+3) click on httpdocs folder which is the main folder for your hosting
+4) choose your zip folder and upload it to your httpdocs folder in plesk panel
+5)Unzip your Folder inside your httpdocs folder
+6) make sure that your all aspx or html or all project related files should be in next to httpdocs folder..not in sub folder..
+7) your home page file should have a name index.aspx or index.html or index.php or whatever your are using
+
+---------------------------how to change web.config file------------------------------
+
+1) delete all web.config file and add basic structure of web.config file
+2)in system.web tag write <customErrors mode=off/>
+3) also write <trust level=full/>
+4) then write connection string tag in web.config file
+5) change path of connection string familiar with your hosted database path
+6)you can find the hosted database path in database->connection option
+7) write your database password just beside the id in path...
+8) i am sharing web.config file in my repo
+
+
+---------------------How to create database-----------------
+
+1) go to databases
+2) click Add database option
+3)fill the form 
+4) make sure for ASp.net projects choose MS SQL version OR for php and other choose MY SQL
+5) Add your database ID and PASS( which is used in your web.config file)
+
+---------------------------How To Host Your local Database---------------------------
+
+1) create your Database script.
+2) make sure your script contain both schema and data(Advance option)
+3)open your script in local sql server
+4) from script Copy just table creation queries and data queries(because database name already added in above creation form)
+5) paste the query in Godaddy SQL server
+6) run the query by submit button
+7)your database will be created in godaddy account
+
+---------------------------How to Set Permissions----------------------------------------
+
+1)when you will copy or save files in database directories through your web application then it will throw an error that access path denied because you did not set permssions
+2) now for setting permissions you have to right click on that directory
+3) select set permissions
+5)create permissions
+6) check mark full control or what ever you want options
+7) click apply ok
+
+----------------------------------------XXXXXXXXXX-----------------------------------------------------------------------------
+
