@@ -1,0 +1,24 @@
+-----------------------------------------------First Step-------------------------------------
+1)Open firebase.google.com
+2)Signin using your gmail
+3)Add project
+
+-----------------------------------------------Second Step-------------------------------------
+1)Open Nodejs.org
+2)Download Stable/Recommended version
+3)Install
+
+-----------------------------------------------Third Step-------------------------------------
+1)Open CMD with using run as administrator
+2)Check for node version using (node -v)
+Check for npm version using (npm -v)
+3)Install firebase using (npm install --global firebase-tools)
+4)firebase --version
+
+-----------------------------------------------Fourth Step-------------------------------------
+1)firebase login
+2)firebase init
+3)Use Existing Project
+4)Make Public Folder
+5)Move All  files to Public Folder
+6)firebase deploy
