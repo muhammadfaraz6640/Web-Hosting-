@@ -52,3 +52,9 @@ jobs:
 
 for token-->write in cmd "surge token" to get the token
 to set the tokens-->go to setting->secrets->add new secrets--> add secret name and paste secret there
+
+
+-------------------------------surge deploy react app--------------------------
+1)go to the project directory-->cmd
+2)enter command "yarn build" or "npm run build"
+3)surge /.build
