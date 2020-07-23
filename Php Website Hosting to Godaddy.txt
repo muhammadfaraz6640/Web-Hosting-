@@ -1,0 +1,23 @@
+-----------export your local database-----------
+1) first export your local db from phpMyAdmin
+2) format must be .sql
+-----------creating database on godaddy------------
+1)create DB on your domain with mysql database
+2)give the username and password of the database
+3)write your attached domain name with database
+4)create database
+-------------import local db file to godaddy my sql database---------
+1)open phpLittleAdmin to your godaddy database tab
+2)select import database option
+3)import your local db .sql file in that
+4)run the file
+5)your database will be created and implemented in server
+-------------edit your config db file in your local project------------
+1)copy server address from godaddy server of the database and paste it to the server variable
+2)write database name which you assigned on godaddy to the file dbname
+3)write your database password to the file
+4)write username in username option
+-------------------uploading project---------------
+1)zip your project folder 
+2)extract in the godaddy domain file folder
+3)home page should be index.php and should be accessable
